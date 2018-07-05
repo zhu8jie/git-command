@@ -1,0 +1,7 @@
+查找指定文件的更新日志
+git log —pretty=oneline 文件名
+git show <git提交版本号> <文件名>
+git log --follow -p <文件名>
+
+合并远程分支zhu8jie到本地
+git merge origin/zhu8jie
