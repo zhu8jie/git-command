@@ -5,3 +5,7 @@ git log --follow -p <文件名>
 
 合并远程分支zhu8jie到本地
 git merge origin/zhu8jie
+
+错误提示  fatal: refusing to merge unrelated histories
+更改仓库地址后，拉取用此命令
+git pull --allow-unrelated-histories
